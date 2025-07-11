@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="block">
+        <p class="paragraph">welcome to my website</p>
+    </nav>
+   
+    <div class="block">
+        <h4 id="name-block">hey there my name is <span id="username">Ruban ahmed</span></h4>
+        <p class="paragraph">here is a code for you</p>
+        <pre><code>consle.log("hey there")</code></pre>
+    </div>
+    <!-- <button onclick = "console.log('U clicked')" > Click me</button> 
+     <button onclick="handlebuttonclick()">Click</button>-->
+    <div id="my-container"></div>
+    <input id="user-name" type="text" placeholder="Enter your name">
+     <button id="clickbutton">Click Me</button>
+    <script src="script.js">
+
+        
+            //query selector
+        //tag name
+        // const div = document.querySelector("div")
+        //     div.innerHTML="<h1>Hacked!!</h1>"
+            //tag id#
+        // const username = document.querySelector("#username");
+        // //console.log(username.innerText);
+        // username.innerText="john doe";
+            //class
+        // const ele = document.querySelector(".paragraph")
+        // console.log(ele.innerHTML)
+            //children
+        // const child = document.querySelector("div")
+        // console.log(child.children)
+            //foreach,queryslecetorall
+        // const element = document.querySelectorAll(".block")
+        // element.forEach((e) => {
+        //     console.log(e.innerHTML);
+        // });
+        // const ele = document.getElementById("username")
+        // ele.innerText="bani ahmed";
+        // ele.style.color = 'blue';
+        // ele.style.textDecoration = "underline"
+        // ele.parentElement.style.background = "purple"
+        // ele.remove();
+        //-------------------15
+        // const element = document.getElementsByClassName("block")
+        // for(let i=0;i<element.length;i++)
+        // {
+        //     element.item(i).style.background = 'blue'
+        // }
+    //-------------------16
+    //event listners
+    // function handlebuttonclick(){
+    //     console.log("The button is clciked")
+    //     alert("Hey I am clicked");
+    // }
+    // const el = document.getElementById("clickbutton");
+    // function dos()
+    // {
+    //     console.log("Im clicked")
+    // }
+    // el.addEventListener("click",dos)
+    // el.addEventListener("click",  () => console.log("have"))
+    // const ep = document.getElementById("name-block")
+    // el.addEventListener("click", () => {
+    //     if(ep.style.color == 'yellow')
+    //     {
+    //         ep.style.color = 'red'
+    //         console.log("colour changed to red")
+    //     }
+    //     else
+    //     {
+    //         ep.style.color = 'yellow'
+    //         console.log("colour changed to yellow")
+    //     }
+        
+    // })
+    //---------------------------------17
+        // const container = document.getElementById("my-container");
+        // const button = document.getElementById("clickbutton");
+        // let count = 1
+        // button.addEventListener('click', () => {
+        //     const el = document.createElement('h1');
+        //     el.innerText = 'ruban ahmed' ;
+        //     const ol = document.createElement('li')
+        //     ol.innerText = count;
+        //     container.appendChild(el);
+        //     container.appendChild(ol);
+        //     count++;
+        // })
+
+    </script>
+</body>
+</html>
